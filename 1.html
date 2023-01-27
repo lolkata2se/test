@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB1 - CS지식</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><a href="index.html">WEB</h1></a>
+    <ol>
+        <li><a href="1.html">CS지식</li></a>
+        <li><a href="HTML.html">HTML</li></a>
+        <li><a href="CSS.html">CSS</li></a>
+        <li><a href="JavaScript.html">JavaScript</li></a>
+    </ol>
+    <h2>시작하기 전에</h2>
+    <img src="https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="500">
+    <p>CS 지식을 쌓고, 컴퓨터를 더 잘 알아가기 위해 위 글을 쓴다. 매일같이 배워가는 것들을 위 글에 기술해 놓을 것이며, 천천히 지식을 늘려가보자. 필자는 백엔드 개발자이고, <strong>Java와 C#을 위주로 기술</strong>할 것이다.<hr></p>
+    <h3>카테고리</h3>
+    <h4>자료구조</h4>
+    <p>자료구조는 프로그램의 기본 개념이다. 웹 개발자들이 쓰는 DTO클래스, 활성 레코드들도 자료구조라고 할 수 있으며, Java의 컬렉션은 모두 이 자료구조다.</p>
+    <h5>Priority Queue(우선순위 큐)</h5>
+    <p><a href="https://velog.io/@robolab1902/Java-Priority-Queue-%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EC%97%90-%EB%9E%8C%EB%8B%A4%EC%8B%9D-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0%EA%B0%80-%EB%AD%90%EC%95%BC">[Java] Priority Queue 매개변수에 람다식 쓰는 이유가 뭐야?</a><br/>
+    우선순위 큐는 큐이면서도 값이 추가될 때마다 오름차순으로 정렬시켜주는 자료구조다.<br/>
+    자료가 추가/삭제될 때마다 걸리는 시간 복잡도는 O(logN)으로 매우 효율적인 편이다.<br/>
+    자료의 추가/삭제 시 정렬되어야 하는 문제에서 애용된다.</p>
+    <h4>알고리즘</h4>
+    <h5>선형탐색</h5>
+    <p>평소에 쓰는 이중for문이나 for문을 사용해 배열을 순차적으로 탐색하는 단순한 알고리즘이 선형탐색이다. 시간 복잡도가 O(N^2)일 확률이 높아 자료범위가 매우 많을 때는 적당하지 않다.</p>
+    <h5>이분탐색</h5>
+    <p>이분탐색은 배열이 정렬 되어있어야 하며 선형탐색보다 구현은 복잡하지만, 더 빠르다.
+    시간복잡도는 O(logN)이다. 시간복잡도가 좋지만, 제약사항으로 정렬이 되어야한다는 걸 항상 기억한다.<br/>따라서 다음과 같은 경우에 쓴다.<br/>
+    <p class="a">
+        <ol>
+            <li>배열이 이미 정렬되어 있는 경우</li>
+            <li>탐색을 여러 번 해야 하는 경우</li></ol></p>
+    문제 모음<br/>
+    <a href="https://www.acmicpc.net/problem/10816">10816 - 숫자카드2</a></p>
+    <h5>투포인터 알고리즘</h5>
+    <p>연속성을 가진 배열에서만 쓸 수 있지만, 그저 반복문을 이용해서 더한다면 시간복잡도가 O(N^2)인 알고리즘들을 O(n)으로 줄일 수 있는 강력한 알고리즘.<br/><br/>
+    문제 모음<br/>
+    <a href="https://www.acmicpc.net/problem/3273">3273 - 두 수의 합</a></p>
+    <h5>슬라이딩 윈도우 알고리즘</h5>
+    <p>문제 모음<br/>
+    <a href="https://www.acmicpc.net/problem/10025">10025 - 게으른 백곰</a></p>
+    <h4>데이터 통신</h4>
+    <p>데이터통신에서 가장 많이 쓰이는 지식은 OSI 7계층이나 IP계층과 MAC이라고 생각한다. AM이나 FM 등 기본지식과 상용에서 쓰인는 FHSS 방식 등은 통신학교 때 배운 지식으로 차근차근 작성하려 한다.</p>
+    <h4>네트워크</h4>
+    <h5>UDP와 TCP 차이</h5>
+    <p><a href="https://velog.io/@robolab1902/UDP-%EA%B7%B8%EB%A6%AC%EA%B3%A0-TCP">UDP-그리고-TCP</a><br/>
+    UDP는 비연결형 프로토콜로 데이터를 전달해주지만 데이터를 보낼 때 데이터의 전달 및 중복 방지가 보장되지 않는다.</p>
+    <p>TCP는 연결형 프로토콜로 데이터 전달시 3-way handshaking과정을 통해 연결을 설정하고 흐름제어 및 혼잡제어가 가능하다.</p>
+    <p class="a">
+        <ol>
+            <li>연결형/비연결형</li>
+            <li>3-way handshaking</li>
+            <li>흐름제어와 혼잡제어</li></ol>
+    이 세가지를 위주로 설명하면 이해가 편하다.</p>
+    <h4>운영체제</h4>
+    개발자에게 가장 핫한 운영체제는 Windows, Mac, Linux(Unix)로 볼 수 있다.
+    <h5>Windows</h5>
+    <p>가정집 컴퓨터에 있는 대표적인 운영체제는 Windows라고 단언할 수 있다. 편리한 GUI환경, 대부분의 상용 프로그램이 돌아가는 좋은 운영체제다. 하지만, 개발자에게 좋은 운영체제냐고 물어본다면 그건 아닐 수도 있다.<br/><br/>
+    아닐 수도 있다는 말이 무슨 뜻일까?<br/><br/>
+    Windows Server는 라이센스료가 비싼 서버 중 하나다. 그리고 굳이 서버를 돌릴 정도의 개발자가 GUI환경이 필요하지 않은 점도 한 몫 할 것이다. 그런 이유로 사업가들은 대체로 서버를 돌릴 때, Linux를 선호하게 된다.</p>
+    <h4>컴파일러</h4>
+    <p>C, C++, Java언어를 배울 때, 소개 부분에 꼭 나오는 것이 컴파일러다.<br/>
+    Python같은 스크립트 언어들은 인터프리터를 사용하여 컴파일러에 대해 자세히 설명하진 않는다.</p>
+    <h4>컴퓨터 그래픽스</h4>
+    <h5>Canvas</h5>
+    <p>컴퓨터 그래픽하면 Canvas밖에 잘 모른다. 이건 어떤 지식들이 있는건지 차근차근 잘 알아가야겠다. 디자인 전공자로써 한줄로 설명하자면 작업영역이라고 말할 수 있을 것 같다.</p>
+    <h4>보안</h4>
+    <p>서버개발자도 보안에 대해 민감할 수 밖에 없다. 클라이언트와 주고받는 데이터들은 보호되어야 하며, 아무리 Post 방식을 이용한다 한들, Pachet을 뜯어 Body를 본다면 데이터를 읽을 수 있다. 그래서 이 데이터를 읽지 못하게 AES256방식을 사용하거나 암호화하면 해커들이 그 정보를 읽기 매우 어렵게 할 수 있다. 상용 데이터들은 특정 시간 이상만 버티면 되는 암호화의 특성상, 암호화를 살짝 알아두는 건 웹 개발자들에게 매우 유용하게 쓰일 수 있다.</p>
+    <hr>
+    <h3>마무리하며</h3>
+    <p>역시 공부는 아무리 해도 모자라서, 이렇게 공부를 정리해두는 게 나중에 큰 힘을 발휘하리라 믿는다.</p>
+    <hr>
+    <blockquote>원본 출처:<a href="https://velog.io/@robolab1902/CS-%EC%A7%80%EC%8B%9D-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0">https://velog.io/@robolab1902/CS-%EC%A7%80%EC%8B%9D-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0</a></blockquote>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 75, 75);
+}
+a:link{
+    color: rgb(160, 128, 147);
+}
+a:visited{
+    color:rgb(90, 77, 80)
+}
+.a{
+    text-indent: -2em;
+}
+li{
+    list-style-type: decimal;
+}
+h2{
+    color:rgb(5, 46, 65)
+}
+h3{
+    margin-top: 60px; font-size: 30px; color:rgb(116, 64, 165)
+}
+h4{
+    margin-top: 60px; font-size: x-large; color:rgb(5, 46, 65)
+}
+h5{
+    font-size: larger; color:rgb(5, 46, 65)
+}
